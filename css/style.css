@@ -1,0 +1,196 @@
+#container {
+    display: flex;
+    margin-top: 50px;
+    background-color: white;
+}
+#main {
+    width: 1200px;
+    background-color: white;
+
+    margin: 0 auto;
+}
+/* styles.css */
+
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-top: -4px;
+}
+
+.card-img-top {
+    object-fit: cover;
+    height: 300px;
+
+}
+
+.card-body {
+    flex: 1;
+}
+
+.danhngon-card,
+.theloai-card {
+    height: auto;
+}
+
+.book-item {
+    margin-bottom: 20px; /* Đặt khoảng cách giữa các ô sách */
+}
+
+
+#noidung1 {
+    padding: 15px;
+    color: black;
+    background-color: aliceblue;
+    border-radius: 15px;
+font-size: larger;
+font-style: italic;
+text-align: center;
+}
+.name {
+    background-color: white;
+    margin-bottom: 30px;
+    color: black;
+}
+#noidung2 {
+    padding: 15px;
+    color: #3c763d;
+}
+.card-body-2 {
+    padding: 15px;
+    color: #103011;
+    background-color: lightcyan;
+}
+.card-body {
+    padding: 15px;
+    color: #103011;
+    background-color: whitesmoke;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+.row{
+    background-color: white;
+}
+
+
+.dropdown-item:hover {
+    display: block;
+    background-color: rgb(172, 234, 234);
+}
+
+#header{
+    background-color: antiquewhite;
+    margin-top: 20px;
+}
+body{
+    background-color: rgb(254, 255, 244);
+}
+
+
+/* Footer Bottom */
+#main-footer  {
+ background-color: white;
+  
+}
+
+#main-footer a {
+    color: #272727;
+    text-decoration: none;
+  
+}
+
+footer .footer-content ol,
+ul {
+    padding-left: 20px !important;
+}
+#main-footer h4 {
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    margin: 0 0 20px;
+    position: relative;
+    line-height: 22px;
+    text-transform: uppercase;
+    margin-left: -18px;
+}
+#main-footer .footer-col a:hover {
+    color: #333;
+    text-decoration: none;
+}
+#main-footer .footer-col {
+    margin-bottom: 24px;
+    padding-left: 25px;
+}
+#main-footer .footer-content ul {
+    margin-bottom: 15px;
+}
+#main-footer .footer-content ul li {
+    display: block;
+    line-height: 28px;
+    position: relative;
+}
+#main-footer .footer-content ul li a,
+#main-footer .footer-content ul li span {
+    position: relative;
+    overflow: hidden;
+}
+#main-footer .footer-content.toggle-footer ul li a:before,
+#main-footer .footer-content.toggle-footer ul li span:before {
+    content: "";
+    width: 7px;
+    height: 1px;
+    background: #000000;
+    left: -18px;
+    opacity: 1;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    list-style: none;
+}
+.footer-content.toggle-footer span {
+    font-weight: 500;
+}
+#main-footer .list-social {
+    margin-bottom: 10px;
+}
+#main-footer .list-social li {
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin-right: 12px;
+}
+#main-footer .list-social li a {
+    font-size: 12px;
+    display: block;
+    line-height: 22px;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+}
+#logo-footer {
+    margin-bottom: 20px;
+}
+#logo-footer img {
+    width: 150px;
+}
+#main-footer--copyright .main-footer--border {
+    border-bottom: none;
+}
+#main-footer--copyright p {
+    text-align: center;
+    margin-bottom: 0;
+}
+#main-footer--copyright a {
+    color: #272727;
+    text-decoration: none;
+}
+#main-footer {
+    padding: 24px 0 0;
+    border-top: 1px dashed #e0d9d6;
+}
+/* End footer */
